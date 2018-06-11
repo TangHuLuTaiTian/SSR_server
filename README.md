@@ -35,3 +35,8 @@ SSR服务端部署与使用
 ### 调试完毕，正式运行
 1. 根目录下运行`./run.sh`(无日志)
 2. 需要日志的话运行`./logrun.sh`
+
+### 常见问题
+>1.VPS重启以后，经常会出现，后台显示上线，但是客户端连接上以后无法打开网页，并且没有流量。
+>
+>解决方法：运行`systemctl stop firewalld`或者`systemctl stop iptables.service`停止防火墙。
