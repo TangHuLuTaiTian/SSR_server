@@ -21,7 +21,7 @@ SSR服务端部署与使用
 0. 首先安装本项目对应的后台[传送门](https://github.com/ouhaohan8023/shadow.com)
 1. git clone https://github.com/ouhaohan8023/SSR_server.git
 2. cp config.json user-config.json
-3. cp apiconfig.json userapiconfig.json
+3. cp apiconfig.py userapiconfig.py
 4. cp mysql.json usermysql.json
 5. 修改对应的数据库配置参数
 6. 回到根目录，运行`python server.py`，查看输出信息（为了保证这一步的输出信息比较完整，请提前再后台用随机生成用户功能，生成一些测试用户）
